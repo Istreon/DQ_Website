@@ -1,0 +1,618 @@
+/*==============================================================================================================================================================================
+//Style du site DragonQuestIX
+//Auteur:HENARD Aymeric
+//Date: 07/04/2017
+//============================================================================================================================================================================*/
+
+
+/*==================================================================================================
+//=====================================General=====================================================
+//================================================================================================*/
+
+@font-face {
+    font-family: "Quest";
+    font-weight: bold;
+    src: url("Quest.ttf");
+}
+
+h1
+{
+	color:yellow;
+	font-size:40pt;
+	font-style: arial;
+}
+
+body
+{
+	background-image:url("./Images/FondEcran.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-size: 20pt;
+	font-family: "Quest";
+
+}
+
+
+a:link
+{
+	color:#4A3527;
+}
+
+
+a:visited
+{
+	color:#4A3527;
+}
+
+a:hover
+{
+	font-size:20pt;
+	font-weight:bolder;
+}
+
+span
+{
+	color:#4A3527;
+	font-weight:bolder;
+}
+
+/*==================================================================================================
+//=====================================Navigation===================================================
+//================================================================================================*/
+nav
+{
+	width:60%;
+	height:auto;
+	background-color:#F0CF90;
+	border:5px solid #4A3527;
+	overflow:auto ;
+	margin-right:auto;
+	margin-left:auto;
+	padding:5px;
+}
+
+
+
+nav a
+{
+	padding: 6px;
+	line-height: 1.5;
+	font-size: .9em;
+	text-decoration: none;
+}
+
+.lesPtitesBoitesdansleNavAH
+{
+	width:160px;
+	height:auto;
+	float:left;
+	background-color: #6985FF;
+	border:3px solid #4A3527;
+	margin-right: 7px;
+	margin-left: 7px;
+	text-align: center;
+	margin-bottom: 5px;
+
+}
+
+.lesPtitesBoitesdansleNavAH:hover
+{
+	background-color: #8BF4FF; 
+
+}
+
+.lesPtitesBoitesdansleNavAH a
+{
+	color:#FFE113;
+}
+
+.lesPtitesBoitesdansleNavAH a:hover
+{
+	color:yellow;
+}
+
+
+/*===================================================================================================
+//=======================================Titre=======================================================
+//=================================================================================================*/
+
+#titre
+{
+	width:60%;
+	height:auto;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+/*===================================================================================================
+//==================================Contenu==========================================================
+//=================================================================================================*/
+ul span:hover
+{
+	font-size: 25pt;
+	cursor: pointer;
+}
+#contenuAH
+{
+	padding: 5px;
+	width:80%;
+	height:auto;
+	margin-right:auto;
+	margin-left:auto;
+	overflow:hidden;
+}
+
+	#lienancre
+	{
+		height:auto;
+		width:80%;
+		padding: 5px;
+		margin-right:auto;
+		margin-left:auto;
+	}
+
+
+
+	#texteindex
+	{
+		height:auto;
+		width:94%;
+		padding: 5px;
+		background-image: url("./Images/FondContenu1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		border:5px solid #4A3527;
+		margin-bottom:2%;
+		overflow:hidden;
+		margin-right:auto;
+		margin-left:auto;
+	}
+
+		#texteindex span
+		{
+			color:#291E75;
+
+		}
+
+	.contenu1
+	{
+		height:auto;
+		width:94%;
+		padding: 5px;
+		background-image: url("./Images/FondContenu1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		border:5px solid #4A3527;
+		margin-bottom:2%;
+		overflow:hidden;
+		margin-right:auto;
+		margin-left:auto;
+
+	}
+
+
+
+		.texte1
+		{
+			height:auto;
+			width:48%;
+			padding: 5px;
+			margin-left:2.5%;
+			margin-right:2.5%;
+			float:left;
+			font-family: :"Quest";
+			font-size: 25pt;
+			color:#4A3527;
+		}
+
+			.texte1 span
+			{
+				font-size:19pt;
+				color:#291E75;
+			}
+
+			.texte1 span2
+			{
+				font-size:40pt;
+				color:#6E3D2F;
+				text-decoration: underline;
+			}
+
+
+			.petittexte
+			{
+				font-size: 17pt;
+			}
+
+		.image1
+		{
+			width:40%;
+			height:auto;
+			padding: 5px;
+			margin-left:2.5%;
+			margin-right:2.5%;
+			overflow: hidden;
+			float:left;
+		}
+
+			.image1petite
+			{
+				width:20%;
+			}
+
+
+			.image1petite2
+			{
+				width:30%;
+			}
+
+
+
+
+			.tailleimage
+			{
+				width:100%;
+			}
+
+	#information
+	{
+		padding: 5px;
+		border:5px solid #4A3527;
+		width:94%;
+		height:auto;
+		margin-right:auto;
+		margin-left:auto;
+		background-color:#FFE099;
+		overflow:hidden;
+		font-size: 15pt;
+	}
+		.boiteinf2
+		{
+			width:23%;
+			height:auto;
+			padding: 5px;
+			overflow:hidden;
+			margin-right:1.5%;
+			float:left;
+		}
+
+		.fondmarron
+		{
+			background-color:#FFE099;
+		}
+		#trailer
+		{
+			height:auto;
+			background-repeat: no-repeat;
+			overflow:hidden;
+			margin-top:3%;
+			margin-right:auto;
+			margin-left:auto;
+
+		}
+
+		.tailleboiteinf2
+		{
+			width:200px;
+
+		}
+
+		#boutonAH
+		{
+			width:115px;
+			height:auto;
+			background-image: url("./Images/FondContenu1.jpg");
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 5px;
+			padding:5px;
+			border:5px solid #4A3527;
+		}
+
+
+
+
+
+
+/*===================================================================================================
+//==================================Retour en Haut===================================================
+//=================================================================================================*/
+#retourhaut
+{
+	position: fixed;
+	width:2.5cm;
+	height:auto;
+	bottom:2%;
+	float:left;
+	overflow:hidden;
+}
+
+
+
+#retourhaut:hover
+{
+	width:2.7cm;
+}
+
+/*===================================================================================================
+//==================================Pied de page=====================================================
+//=================================================================================================*/
+footer
+{
+	width:98%;
+	background-color:#FFFFFF;
+	border:5px solid #4A3527;
+	overflow:auto;
+	margin-right:auto;
+	margin-left:auto;
+	padding:5px;
+	text-align:center;
+	font-family:arial;
+	font-size:9pt;
+}
+
+footer a
+{
+	text-decoration: none;
+}
+
+footer a:hover
+{
+	font-size:11pt;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+/*===================================================================================================
+//==================================Taille Navigateur Moyenne========================================
+//=================================================================================================*/
+@media screen and (min-width: 767px) and (max-width: 1320px)
+{
+				.image1petite
+			{
+				width:400px;
+			}
+}			
+@media screen and (min-width: 767px) and (max-width: 1320px)
+{
+	.image1
+	{
+		width:80%;
+		float:none;
+		margin-right:auto;
+		margin-left:auto;
+	}
+
+				.image1petite
+			{
+				width:50%;
+			}
+	.texte1
+	{
+		width:85%;
+		float:none;
+		margin-right:auto;
+		margin-left:auto;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+
+		#titre
+		{
+			width:100%;
+		}
+
+		#texteindex
+		{
+			font-size:17pt;
+		}
+
+		.image1
+		{
+			width:94%;
+
+			float:none;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+			.image1petite
+			{
+				width:60%;
+			}
+
+
+		.texte1
+		{
+			width:94%;
+			float:none;
+			margin-right: auto;
+			margin-left: auto;
+			font-size: 20pt;
+
+		}	
+
+
+			.texte1 span
+			{
+				font-size:17pt;
+			}
+
+
+			.petittexte
+			{
+				font-size:15pt;
+			}
+
+
+		.boiteinf2
+		{
+			width:150px;
+		}
+
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 630px)
+{
+
+		.lesPtitesBoitesdansleNavAH
+		{
+			float:none;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	
+}	
+
+
+/*===================================================================================================
+//==================================Taille Navigateur Petite=========================================
+//=================================================================================================*/
+
+
+@media screen and (min-width: 0px) and (max-width: 319px)
+{
+
+		body
+		{
+			background-image:none;
+			background-color: #3BDBFF;
+		}
+
+		a:hover
+		{
+			font-size:17pt;
+			font-weight:bolder;
+		}
+
+		nav
+		{
+			font-size: 15pt;
+			width:94%;
+		}
+
+		nav ul 
+		{
+			text-align: left;
+		}
+
+		ul span
+		{
+			font-size: 15pt;
+		}
+		ul span:hover
+		{
+			font-size: 17pt;
+		}
+
+		#contenu
+		{
+			width:90%;
+		}
+
+		.lesPtitesBoitesdansleNavAH
+		{
+			float:none;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		#texteindex
+		{
+			background-image: none;
+			background-color: #E8C07F;
+			font-size:12pt;
+		}
+
+		#titre
+		{
+			width:100%;
+		}
+
+		.contenu1
+		{
+			background-image: none;
+			background-color: #E8C07F;
+		}
+
+	
+		.image1
+		{
+			width:94%;
+
+			float:none;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+			.image1petite
+			{
+				width:100%;
+			}
+
+
+		.texte1
+		{
+			width:94%;
+			float:none;
+			margin-right: auto;
+			margin-left: auto;
+			font-size: 15pt;
+
+		}
+
+				.texte1 span
+				{
+					font-size:15pt;
+				}
+
+
+				.texte1 span2
+				{
+					font-size:27pt;
+				}
+
+
+				.petittexte
+				{
+					font-size:13pt;
+				}
+
+		.boiteinf2
+		{
+			width:94%;
+			margin-right:auto;
+			margin-left:auto;
+			font-size: 8pt;
+		}
+
+		#bouton
+		{
+			background-image: none;
+			background-color:#9C7143;
+		}
+
+		#retourhaut
+		{
+			width:20%;
+		}
+		#retourhaut:hover
+		{
+			width:22%;
+		}
+
+		footer
+		{
+			width:94%;
+		}
+}

@@ -1,0 +1,219 @@
+<!--===================================================================================================================================================
+//Nom du site: DragonQuestIX
+//Auteur: HENARD Aymeric
+//Date: 07/04/2017
+//=================================================================================================================================================/-->
+
+
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../style.css" /> 
+<html>
+	<head>
+		<title> DragonQuestIX </title>
+
+
+		<!--=======================================Script changement texte et image=========================================-->
+		<script>
+
+		function choixVocation(){
+			var choix=document.formulaire.QuelleVoc.selectedIndex
+			switch (choix)
+			{	
+				case 0: document.getElementById("uneImage").src = '../Images/vocation.png';
+						document.getElementById("unTexte").innerHTML = "<p>Quelle vocation allez vous embrasser?</p>";
+						break;
+
+				case 1: document.getElementById("uneImage").src = '../Images/Classes/Guerrier.png';
+						document.getElementById("unTexte").innerHTML = "<span2>Guerrier :</span2><p>Puissant combattant adroit à l'épée, à la lance et au poignard, et qui protège courageusement ses équipiers.</p>";
+						break;
+				case 2: document.getElementById("uneImage").src = '../Images/Classes/Pretre.png';
+						document.getElementById("unTexte").innerHTML = "<span2>Prêtre :</span2> <p>Magicien spécialiste en médecine, il sait se servir de lances, de baguettes et de bâtons quand le combat l'exige.</p>";
+						break;
+
+				case 3: document.getElementById("uneImage").src = '../Images/Classes/Mage.png';
+						document.getElementById("unTexte").innerHTML = "<span2>Mage :</span2><p>Magicien spécialisé en combat, craint par les monstres. Il peut aussi s'équiper de baguettes, de poignards et de fouets.</p>";
+						break;
+
+				case 4: document.getElementById("uneImage").src = '../Images/Classes/ArtisteMartial.png';
+						document.getElementById("unTexte").innerHTML = "<span2>Artiste Martial :</span2> <p>Habile utilisateur de la tension, il privilégie la force et l'agilité et se bat à l'éventail, à la griffe ou au bâton.</p>";
+						break;
+
+				case 5: document.getElementById("uneImage").src = '../Images/Classes/Voleur.png';
+						document.getElementById("unTexte").innerHTML = "<span2>Voleur :</span2> <p>Vagabond polyvalent doué pour flairer les trésors, il se bat aussi férocement à l'épée, au poignard ou à la griffe.</p>";
+						break;
+
+				case 6: document.getElementById("uneImage").src = '../Images/Classes/Troubadour.png';
+						document.getElementById("unTexte").innerHTML = "<span2>Troubadour :</span2> <p>Amuseur touche-à-tout dont les prodiges encouragent ses équipiers, il se bat au fouet, à l'éventail ou à l'épée.</p>";
+						break;	
+
+				case 7: document.getElementById("uneImage").src = '../Images/Classes/Gladiateur.png';
+						document.getElementById("unTexte").innerHTML = "<span2>Gladiateur :</span2> <p>Féroce combattant qui fait pleuvoir ses coups sur ses adversaires à l’aide d’épées, de haches et de masses.</p>";
+						break;
+
+				case 8: document.getElementById("uneImage").src = '../Images/Classes/Paladin.png';
+						document.getElementById("unTexte").innerHTML = "<span2>Paladin :</span2> <p>Chevalier altruiste dont la vocation est de défendre les plus faibles à l’aide de baguettes, de lances ou de masses.</p>";
+						break;	
+
+				case 9: document.getElementById("uneImage").src = '../Images/Classes/Armagicien.png';
+						document.getElementById("unTexte").innerHTML = "<span2>Armagicien :</span2> <p>Fervent adepte de la Puissance, il sait aussi se servir de baguettes, d’arcs et d’épées.</p>";
+						break;
+
+				case 10:document.getElementById("uneImage").src = '../Images/Classes/Ranger.png';
+						document.getElementById("unTexte").innerHTML = "<span2>Ranger :</span2><p>Puissant guerrier en communion avec la nature dont il exploite les forces, il se bat au boomerang, à l’arc ou à la hache.</p>";
+						break;	
+
+				case 11: document.getElementById("uneImage").src = '../Images/Classes/Sage.png';
+						document.getElementById("unTexte").innerHTML = "﻿﻿<span2>Sage :</span2> <p>Puissants mystiques qui ont appris à se servir de compétences sacrées et à manier baguettes, arcs et boomerangs.</p>";
+						break;
+
+				case 12: document.getElementById("uneImage").src = '../Images/Classes/Sommite.png';
+						document.getElementById("unTexte").innerHTML = "<span2>Sommité :</span2><p>Chanteur et danseur qui ajoute strass et paillettes à l'art du combat et manie avec grâce l'éventail, le fouet ou le boomerang.</p>";
+						break;
+
+				default:break;
+			}
+		}
+		</script>
+
+
+
+	</head>
+	
+	<body>
+
+<!-- ===========================================================================================================================
+===============================================Boite navigation===============================================================
+=============================================================================================================================/-->
+		<nav>
+			<div class="lesPtitesBoitesdansleNavAH" >
+				<a href="../index.html" > Accueil </a>
+			</div>	
+
+			<div class="lesPtitesBoitesdansleNavAH" >
+				<a href="./decouverte.html">L'Aventure</a>
+			</div>	
+
+			<div class="lesPtitesBoitesdansleNavAH" >
+				<a href="./classes.html" > Vocations </a>
+			</div>	
+
+			<div class="lesPtitesBoitesdansleNavAH" >
+				<a href="./map.html" > Protectora </a>
+			</div>	
+
+			<div class="lesPtitesBoitesdansleNavAH" >
+				<a href="./serie.html" > EpisodesDQ </a>
+			</div>	
+		</nav>
+<!-- ===========================================================================================================================
+===============================================Boite titre===============================================================
+=============================================================================================================================/-->
+		<a id="haut"></a>
+		<div id="titre">
+			<img src=../Images/Titre.png alt="Photo" width="100%" />
+		</div>
+
+<!-- ===========================================================================================================================
+===============================================Boite Contenu===================================================================
+=============================================================================================================================/-->
+		<div id="contenuAH">
+
+
+			<!-- ================================Boite Menu déroulant=====================================/-->
+			<div id="boutonAH">
+				<form name="formulaire">
+					<select name="QuelleVoc" onchange="choixVocation()">
+						<option>Vocation</option>
+						<option>Guerrier</option>
+						<option>Prêtre</option>
+						<option>Mage</option>
+						<option>Artiste Martial</option>
+						<option>Voleur</option>
+						<option>Troubadour</option>
+						<option>Gladiateur</option>
+						<option>Paladin</option>
+						<option>Armagicien</option>
+						<option>Ranger</option>
+						<option>Sage</option>
+						<option>Sommité</option>
+					</select>
+				</form>
+			</div>
+
+
+			<!-- ================================Boite Contenu1=====================================/-->	
+			<div class='contenu1'>
+				<div class="image1 image1petite2">
+
+					<img src="../Images/vocation.png" id="uneImage" class="tailleimage">
+				</div>
+
+				<!--++++++++++++++++++++++++++Boite Texte+++++++++++++++++++++++/-->
+				<div class="texte1" id="unTexte">
+					<p>Quelle vocation allez vous embrasser?</p>
+				</div>
+
+
+			</div>	
+
+
+
+			<!-- ================================Boite d'information relative=====================================/-->
+			<div id="information">
+				<div class="boiteinf2">
+					<img src="../Images/BoiteInfo/jaquette.jpg" class="tailleimage" />
+				</div>
+
+				</br>
+				</br>
+
+				<div class="boiteinf2 fondmarron">
+					<span>Date de sortie :</span> 11 juillet 2009 </br>
+					<span>Joueurs :</span> 1-4 </br>
+					<span>Catégorie :</span> RPG </br>
+					<span>Editeur :</span> Nintendo </br>
+					<span>Developpeur :</span>
+					LEVEL-5
+					SQUARE ENIX
+
+				</div>	
+
+				<div class="boiteinf2 fondmarron ">
+					<img src="../Images/BoiteInfo/info.png" class="tailleimage" />
+				</div>
+
+	
+
+				<div class="boiteinf2 tailleboiteinf2">
+					<!--++++++++++++++++++++++++++++++++Boite Trailer+++++++++++++++++++++++/-->
+					<div id="trailer">
+						<a href="https://youtu.be/5RoVlQakC18" target="_blank"> <img src="../Images/BoiteInfo/Icone_LienTrailer_sombre.png" class="tailleimage" onmouseover="this.src='../Images/BoiteInfo/Icone_LienTrailer_clair.png'" onMouseOut="this.src='../Images/BoiteInfo/Icone_LienTrailer_sombre.png'"/>  </a>
+					</div>
+				</div>	
+			</div>
+		</div>
+
+<!-- ===========================================================================================================================
+===============================================Boite Retour en Haut de page=====================================================
+=============================================================================================================================/-->		
+
+		<div id="retourhaut">
+			<a href="#haut" ><img src="../Images/gluant.png" class="tailleimage" onmouseout="this.src='../Images/gluant.png'" onclick="this.src='../Images/gluant2.png'"/></a>
+		</div> 
+
+<!-- ===========================================================================================================================
+===============================================Boite pied de page===============================================================
+=============================================================================================================================/-->
+
+		<footer>
+			<p> Copyright:HENARD Aymeric </p>
+			Source image : pinterest / Google Image <br>
+			<a href="../CahierDesCharges.pdf" target="_blank"> Cahiers des charges</a>
+		</footer>
+
+
+	</body>
+</html>
+
